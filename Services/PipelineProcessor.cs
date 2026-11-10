@@ -64,6 +64,7 @@ public static class PipelineProcessor
     }
 
     // П1, Задание 3 и П2, Задание 2
+
     private static async Task ProcessSingleTaskAsync(
         FileTask task,
         int workerId,

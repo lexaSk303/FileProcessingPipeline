@@ -15,5 +15,6 @@ public sealed class AnalysisReport
     public List<FileProcessingError> Errors { get; init; } = [];
 
     // П2, Задание 3
+
     public Dictionary<int, int> WorkerStatistics { get; init; } = new();
 }
